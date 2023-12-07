@@ -16,8 +16,8 @@ In this project, a backdoor detector for BadNets trained on the YouTube Face dat
 backdoor-detector/
 |-- data/
 |   |-- validation/
-|   |   |-- clean/
-|   |   |-- backdoored/
+|       |-- clean/
+|       |-- backdoored/
 |-- models/
 |   |-- badnet_B.h5
 |   |-- pruned_badnet_B.h5
@@ -28,9 +28,9 @@ backdoor-detector/
 |-- README.md
 |-- requirements.txt
 |-- evaluation/
-|   |-- test_data/
-|       |-- clean/
-|       |-- backdoored/
-|   |-- eval.py
+    |-- test_data/
+        |-- clean/
+        |-- backdoored/
+    |-- eval.py
 
 
