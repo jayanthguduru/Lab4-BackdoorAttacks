@@ -14,7 +14,7 @@ In this project, a backdoor detector for BadNets trained on the YouTube Face dat
 
   #  Project Structure:
 
-    Lab4-BackdoorAttacks/
+Lab4-BackdoorAttacks/
 |-- data/
 |   |-- validation_data/
 |   |   |-- clean/
@@ -28,3 +28,4 @@ In this project, a backdoor detector for BadNets trained on the YouTube Face dat
 |   |-- data_loader.py
 |-- README.md
 |-- requirements.txt
+
