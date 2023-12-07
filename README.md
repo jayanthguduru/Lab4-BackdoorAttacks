@@ -12,7 +12,8 @@ In this project, a backdoor detector for BadNets trained on the YouTube Face dat
 
     4. Backdoor Detector (G): For each test input, the detector runs it through both the original BadNet B and the pruned BadNet B'. If the classification outputs are the same (class i), the detector outputs class i. If they differ, the detector outputs class N+1, indicating a backdoored input.
 
-  #  Project Structure:
+#  Project Structure:
+
 backdoor-detector/
 |-- data/
 |   |-- validation/
@@ -32,5 +33,4 @@ backdoor-detector/
         |-- clean/
         |-- backdoored/
     |-- eval.py
-
 
